@@ -8,6 +8,7 @@ else
     python3 -m venv env
 fi
 
+ls env/bin/
 
 source env/bin/activate
 
