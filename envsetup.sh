@@ -10,6 +10,8 @@ fi
 
 
 
+rm -rf env
+python3 -m venv env
 
 ls env/bin/
 
