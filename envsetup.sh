@@ -5,6 +5,7 @@ then
     echo "Python virtual environment exists." 
 else
     echo $PATH
+    apt install python3.12-venv
     python3 -m venv env
 fi
 
