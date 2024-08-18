@@ -9,7 +9,9 @@ else
 fi
 
 echo $PWD
-source env/scripts/activate
+ls env/bin/
+
+source env/bin/activate
 
 
 pip3 install -r requirements.txt
