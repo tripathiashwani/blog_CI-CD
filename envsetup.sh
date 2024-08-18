@@ -8,7 +8,14 @@ else
     python3 -m venv env
 fi
 
+<<<<<<< HEAD
 echo $PWD
+=======
+
+
+
+
+>>>>>>> 95e9b3cd2a1c30354a31cb572ed837fbbcd410da
 ls env/bin/
 
 source env/bin/activate
