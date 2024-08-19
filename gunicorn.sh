@@ -1,5 +1,5 @@
 #!/bin/bash
-
+echo "at gunicorn.sh"
 source env/bin/activate
 
 cd /var/lib/jenkins/workspace/django-cicd/app
