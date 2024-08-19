@@ -3,7 +3,7 @@
 source env/scripts/activate
 
 cd /var/lib/jenkins/workspace/django-cicd/app
-
+echo "$PWD"
 echo "Migrations started" 
 python3 manage.py makemigrations
 python3 manage.py migrate
