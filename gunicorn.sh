@@ -4,6 +4,7 @@ source env/scripts/activate
 
 cd /var/lib/jenkins/workspace/django-cicd/app
 
+echo "Migrations started" 
 python3 manage.py makemigrations
 python3 manage.py migrate
 python3 manage.py collectstatic -- no-input
