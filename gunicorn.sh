@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source env/scripts/activate
+source env/bin/activate
 
 cd /var/lib/jenkins/workspace/django-cicd/app
 echo "$PWD"
